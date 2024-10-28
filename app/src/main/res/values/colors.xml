@@ -6,4 +6,8 @@
     <color name="blue_mid">#114BC6</color>
     <color name="blue_end">#071DB3</color>
     <color name="green_text">#43A047</color>
+    <color name="green_hover">#E443A047</color>
+    <style name="abc" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#BAA7E6AA</item>
+    </style>
 </resources>

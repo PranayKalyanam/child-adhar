@@ -10,4 +10,15 @@
     <string name="memories">Memories</string>
     <string name="profile">Profile</string>
     <string name="customer_care">Customer Care</string>
+    <string name="profile_photo">profile photo</string>
+    <string name="first_name">First Name:</string>
+    <string name="pranay">Pranay</string>
+    <string name="last_name">Surname Name:</string>
+    <string name="kalyanam">Kalyanam</string>
+    <string name="email">Email:</string>
+    <string name="pranay_gmail_com">pranay***@gmail.com</string>
+    <string name="phone">Phone</string>
+    <string name="save_information">Save Information</string>
+    <string name="_9086">9086*****</string>
+    <string name="edit">Edit</string>
 </resources>

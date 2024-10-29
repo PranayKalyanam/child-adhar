@@ -21,4 +21,7 @@
     <string name="save_information">Save Information</string>
     <string name="_9086">9086*****</string>
     <string name="edit">Edit</string>
+    <string name="title_of_the_image">Title of the Image</string>
+    <string name="date">date</string>
+    <string name="memories_pictures">memories pictures</string>
 </resources>

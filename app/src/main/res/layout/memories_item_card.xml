@@ -79,7 +79,7 @@
                         android:layout_height="match_parent"
                         android:contentDescription="@string/memories_pictures"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/siblings"
+                        android:src="@drawable/banner"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"

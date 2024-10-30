@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/appTitleCardView"
         app:navGraph="@navigation/navigation" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -33,63 +33,82 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/menu" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appTitleCardView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/yeonsung_regular"
-        android:text="@string/child_adhar"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="0.5dp"
+        app:cardElevation="1dp"
         android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        app:layout_constraintTop_toTopOf="parent"
+        >
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/white"
-            android:paddingStart="2dp"
-            android:paddingEnd="2dp"
-            android:paddingBottom="2dp"
-            android:paddingTop="2dp">
+            android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginEnd="2dp"
-                android:layout_marginBottom="2dp"
-                android:background="@color/white"
-                android:contentDescription="@string/splash_screen_logo"
-                android:paddingStart="2dp"
-                android:paddingTop="2dp"
-                android:paddingEnd="2dp"
-                android:paddingBottom="2dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/splash_screen_image"
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/yeonsung_regular"
+                android:text="@string/child_adhar"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/white"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0.5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:paddingStart="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingEnd="2dp"
+                    android:paddingBottom="2dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/white"
+                        android:contentDescription="@string/splash_screen_logo"
+                        android:paddingStart="2dp"
+                        android:paddingTop="2dp"
+                        android:paddingEnd="2dp"
+                        android:paddingBottom="2dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/splash_screen_image"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
+
+    </androidx.cardview.widget.CardView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

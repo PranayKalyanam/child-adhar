@@ -24,4 +24,5 @@
     <string name="title_of_the_image">Title of the Image</string>
     <string name="date">date</string>
     <string name="memories_pictures">memories pictures</string>
+    <string name="add">Add</string>
 </resources>

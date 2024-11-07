@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".Fragment.ProfileFragment">
+    android:background="@color/light_silver"
+    tools:context=".fragment.ProfileFragment">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white">
+        >
 
         <ScrollView
             android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                         android:layout_height="100dp"
                         android:contentDescription="@string/profile_photo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/profile_icon" />
+                        android:src="@drawable/doraemon_family_image_2" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -54,7 +54,7 @@
                     android:layout_marginBottom="8dp"
                     android:background="@drawable/profile_text_background"
                     android:elevation="2dp"
-                    android:fontFamily="@font/yeonsung_regular"
+                    android:fontFamily="@font/lato_bold"
                     android:padding="4dp"
                     android:text="@string/edit"
                     android:textSize="18sp"

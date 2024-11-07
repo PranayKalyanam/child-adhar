@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.MemoriesFragment"
-    android:background="@color/white">
+    tools:context=".fragment.MemoriesFragment"
+    android:background="@color/light_silver">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white">
+        android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/appCompatButton"
@@ -22,7 +21,7 @@
             android:background="@drawable/add_button_shape"
             android:drawableStart="@drawable/add_round_icon"
             android:elevation="4dp"
-            android:fontFamily="@font/lato_regular"
+            android:fontFamily="@font/lato_bold"
             android:gravity="center"
             android:padding="4dp"
             android:text="@string/add"
@@ -37,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
+            android:background="@color/light_silver"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:fontFamily="@font/lato_bold"
-            android:text="Create Your Memories"
+            android:text="@string/create_your_memories"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"

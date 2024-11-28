@@ -53,4 +53,10 @@
     <string name="facebook">Facebook</string>
     <string name="google">Google</string>
     <string name="login">Login</string>
+    <string name="email_customer_care">Email Customer Care</string>
+    <string name="question1">Q1: How do I add my child\'s details?</string>
+    <string name="answer1">Answer: Go to the \'Add Child\' section and fill in the required details such as name, age, and upload an image.</string>
+    <string name="question2">Q2: What is \'Help Lost Child\'?</string>
+    <string name="answer2">Answer: This feature helps identify a lost child using their fingerprint or the name of their father. It displays their details if available.</string>
+    <string name="question3">Q3: Has a issue?</string>
 </resources>

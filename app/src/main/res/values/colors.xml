@@ -12,6 +12,9 @@
     <color name="green_text">#43A047</color>
     <color name="green_hover">#E489E98D</color>
     <color name="light_green">#C4A5D5A6</color>
+    <color name="green">#29DA2E</color>
+    <color name="start_green">#53DC57</color>
+    <color name="end_green">#10BA14</color>
     <style name="abc" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">#BAA7E6AA</item>
     </style>

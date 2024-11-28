@@ -1,14 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/light_silver"
     android:layout_height="match_parent"
     tools:context=".fragment.CustomerCareFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/customer_care" />
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDFAFA"
+                android:orientation="vertical">
+
+                <!-- Header Section -->
+                <TextView
+                    android:id="@+id/tvHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Customer Support"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- FAQ Section -->
+                <TextView
+                    android:id="@+id/tvFaqHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:text="Frequently Asked Questions"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Sample FAQ Question -->
+                <TextView
+                    android:id="@+id/tvQuestion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="How do I add my child's details?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAnswer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30px"
+                    android:paddingTop="4dp"
+                    android:text="Answer: Go to the 'Add Child' section and fill in the required details such as name, age, and upload an image."
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvQuestion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="What is 'Help Lost Child'?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAnswer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Answer: This feature helps identify a lost child using their fingerprint or the name of their father. It displays their details if available."
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvQuestion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="How do I reset my password?"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAnswer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Answer: Use the 'Forgot Password' option on the login screen to reset your password via email."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Contact Section -->
+                <TextView
+                    android:id="@+id/tvContactHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:text="Need more help?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvContactInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="If you have any issues, email us at: support@childadhar.com"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnEmailSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/add_button_shape"
+                    android:text="Email Customer Care"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_silver"
+            tools:context=".fragment.CustomerCareFragment">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:padding="16dp"
+                        android:elevation="4dp"
+                        android:layout_margin="8dp">
+
+                        <!-- Header Section -->
+                        <TextView
+                            android:id="@+id/tvHeader"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Customer Support"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <!-- FAQ Section -->
+                        <TextView
+                            android:id="@+id/tvFaqHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="8dp"
+                            android:text="Frequently Asked Questions"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <!-- FAQ Items with Expandable Answers -->
+                        <LinearLayout
+                            android:id="@+id/faqItem1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="12dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/faq_item_background"
+                            android:clickable="true"
+                            android:focusable="true">
+
+                            <TextView
+                                android:id="@+id/tvQuestion1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q1: How do I add my child's details?"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvAnswer1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Answer: Go to the 'Add Child' section and fill in the required details such as name, age, and upload an image."
+                                android:textColor="@color/gray"
+                                android:textSize="14sp"
+                                android:visibility="gone"
+                                android:paddingTop="8dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/faqItem2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="12dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/faq_item_background"
+                            android:clickable="true"
+                            android:focusable="true">
+
+                            <TextView
+                                android:id="@+id/tvQuestion2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Q2: What is 'Help Lost Child'?"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvAnswer2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Answer: This feature helps identify a lost child using their fingerprint or the name of their father. It displays their details if available."
+                                android:textColor="@color/gray"
+                                android:textSize="14sp"
+                                android:visibility="gone"
+                                android:paddingTop="8dp" />
+                        </LinearLayout>
+
+                        <!-- Add More FAQ Items as Needed -->
+
+                        <!-- Contact Section -->
+                        <TextView
+                            android:id="@+id/tvContactHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="24dp"
+                            android:text="   Q3: Need more help?"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvContactInfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:textColor="@color/gray"
+                            android:textSize="14sp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnEmailSupport"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:background="@color/material_dynamic_tertiary40"
+                            android:text="Email Customer Care"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

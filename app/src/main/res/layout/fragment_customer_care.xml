@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/light_silver"
+    android:background="@color/silver"
     android:layout_height="match_parent"
     tools:context=".fragment.CustomerCareFragment">
 
@@ -17,7 +17,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:background="@color/light_silver"
+            app:cardBackgroundColor="@color/silver"
             app:cardCornerRadius="20dp"
             app:cardElevation="4dp"
             android:padding="4dp"
@@ -45,7 +45,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:padding="8dp"
-                        android:text="Customer Support"
+                        android:text="@string/customer_care"
                         android:textColor="@color/black"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -57,7 +57,7 @@
                         android:layout_height="wrap_content"
                         android:paddingTop="16dp"
                         android:paddingBottom="8dp"
-                        android:text="Frequently Asked Questions"
+                        android:text="@string/frequently_asked_questions"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />

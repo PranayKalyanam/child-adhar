@@ -2,7 +2,8 @@
     <string name="app_name">Child Adhar</string>
     <string name="designed_by_n_kalyanam_pranay">Designed by \n Kalyanam Pranay</string>
     <string name="child_adhar">Child Adhar</string>
-    <string name="no_information_is_n_currently_available">No information is \n currently available.</string>
+    <string name="no_information_is_n_currently_available">No information is \n currently available</string>
+    <string name="no_information_is_available">No information \n is available</string>
     <string name="splash_screen_logo">splash screen logo</string>
     <string name="empowering_families_safeguarding_futures_n_because_every_child_s_story_deserves_to_be_cherished">Empowering families, safeguarding futures \n because every child\'s story deserves to be cherished</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -68,4 +69,8 @@
     <string name="verify">Verify</string>
     <string name="fingerprint_image">fingerprint image</string>
     <string name="please_verify_your_child_fingerprint_here">Please verify your child fingerprint here</string>
+    <string name="lost_child">Lost Child</string>
+    <string name="log_out">Log Out</string>
+    <string name="search">Search</string>
+    <string name="search_by_father_name">Search by parent\'s name</string>
 </resources>

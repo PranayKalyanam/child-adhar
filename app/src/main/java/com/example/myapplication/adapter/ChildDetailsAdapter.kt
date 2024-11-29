@@ -4,7 +4,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.ChildrenDetailsActivity
+import com.example.myapplication.FingerPrintActivity
 import com.example.myapplication.databinding.ChildItemCardBinding
 import com.example.myapplication.model.ChildDetailsModel
 
@@ -47,7 +47,7 @@ class ChildDetailsAdapter(
             // Set click listener on the Edit button
             binding.seeDetailsButton.setOnClickListener {
                 // Create an intent to navigate to ChildDetailsActivity
-                val intent = Intent(binding.root.context, ChildrenDetailsActivity::class.java)
+                val intent = Intent(binding.root.context, FingerPrintActivity::class.java)
 
                 // Send the childId and child details to the ChildDetailsActivity
                 intent.putExtra("child_details_model", child)

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_silver"
+    android:background="@color/silver"
     tools:context=".ChildrenDetailsActivity">
     <ScrollView
         android:id="@+id/childDetailsScrollView"
@@ -440,6 +440,8 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/lato_light"
                     android:gravity="center_vertical"
+                    android:enabled="false"
+                    android:focusable="false"
                     android:text="@string/eye_blindness"
                     android:importantForAutofill="no"
                     android:inputType="text"

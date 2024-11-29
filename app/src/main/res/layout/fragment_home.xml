@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_silver"
+    android:background="@color/silver"
     tools:context=".fragment.HomeFragment">
 
 
@@ -26,7 +26,7 @@
                 android:layout_marginEnd="16dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/light_silver"
+                app:cardBackgroundColor="@color/silver"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -99,7 +99,7 @@
                 android:layout_marginBottom="8dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/light_silver"
+                app:cardBackgroundColor="@color/silver"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

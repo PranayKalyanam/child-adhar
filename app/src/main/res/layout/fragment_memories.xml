@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.MemoriesFragment"
-    android:background="@color/light_silver">
+    android:background="@color/silver">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
-            android:background="@color/light_silver"
+            android:background="@color/silver"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

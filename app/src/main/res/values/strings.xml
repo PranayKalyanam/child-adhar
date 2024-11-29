@@ -65,4 +65,7 @@
     <string name="phone_number">Phone Number</string>
     <string name="disability">Disability</string>
     <string name="eye_blindness">Eye Blindness</string>
+    <string name="verify">Verify</string>
+    <string name="fingerprint_image">fingerprint image</string>
+    <string name="please_verify_your_child_fingerprint_here">Please verify your child fingerprint here</string>
 </resources>

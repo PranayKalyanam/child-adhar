@@ -1,11 +1,13 @@
 package com.example.myapplication.fragment
 
 import android.os.Bundle
+import android.content.Intent
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.myapplication.MemoriesPage
 import com.example.myapplication.adapter.MemoriesItemAdapter
 import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentMemoriesBinding
@@ -33,6 +35,12 @@ class MemoriesFragment : Fragment() {
         val images = listOf(R.drawable.banner, R.drawable.siblings, R.drawable.banner)
 
         setUpAdapter(titles, dates, images)
+
+        binding.appCompatButton.setOnClickListener {
+            // Navigate to ActivityMemoriesPage
+            val intent = Intent(requireContext(), MemoriesPage::class.java)
+            startActivity(intent)
+        }
 
 
     }
